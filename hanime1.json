@@ -1,0 +1,21 @@
+{
+    "api": "5",
+    "type": "anime",
+    "name": "Hanime1",
+    "version": "1.0",
+    "muliSources": true,
+    "useWebview": true,
+    "useNativePlayer": true,
+    "usePost": false,
+    "useLegacyParser": false,
+    "adBlocker": true,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36",
+    "referer": "",
+    "baseURL": "https://hanime1.me/",
+    "searchURL": "https://hanime1.me/search?query=@keyword",
+    "searchList": "//div[@class='horizontal-row']/div",
+    "searchName": "//div[@class='title']",
+    "searchResult": "//a[@class='video-link']",
+    "chapterRoads": "//div[@id='playlist-scroll']",
+    "chapterResult": "//h4[@class='video-title']/a"
+}
